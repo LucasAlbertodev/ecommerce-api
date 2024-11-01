@@ -1,8 +1,3 @@
-# ecommerce-api
-Aquí tienes el README enfocado únicamente en el backend de tu proyecto eCommerce. 
-
----
-
 # 🛒 eCommerce API Backend
 
 Bienvenido al **eCommerce API Backend**, un sistema robusto de comercio electrónico creado con **Node.js y Express** que proporciona un conjunto completo de endpoints RESTful para manejar productos, usuarios, pedidos y mucho más. Diseñado para ser el backend de una aplicación eCommerce moderna, este proyecto se puede integrar fácilmente con un frontend en React u otro framework de tu elección.
