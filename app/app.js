@@ -1,6 +1,7 @@
 import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
+import path from 'path'
 import cors from "cors";
 import bodyParser from "body-parser";
 import dbConnect from "../config/dbConnect.js";
@@ -103,8 +104,11 @@ app.post(
 //pass incoming data
 app.use(express.json());
 app.use(bodyParser.json());
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
+
+
 app.get("/", (req, res) => {
   res.sendFile(path.join("public", "index.html"));
 });
